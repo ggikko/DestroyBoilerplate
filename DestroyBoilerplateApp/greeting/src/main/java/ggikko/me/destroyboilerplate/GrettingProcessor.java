@@ -25,6 +25,7 @@ public class GrettingProcessor extends AbstractProcessor {
     for(Element annotatedElement : roundEnv.getElementsAnnotatedWith(SayHello.class)){
       TypeElement annotatedClass = (TypeElement) annotatedElement;
       String annotatedClassName = annotatedClass.getSimpleName().toString();
+      System.out.printf("sdfds");
     }
     return false;
   }
