@@ -8,4 +8,8 @@ import com.google.auto.value.AutoValue;
 @AutoValue
 public class AutoValueTest {
 
+  public void test(){
+
+  }
+
 }
